@@ -30,7 +30,7 @@ commit. This is useful to find the commit exactly in which a bug was introduced.
 Hence git log will give you nothing.
 
 7.git status
------------
+-----------gives status of staging area and also lists the untracked files
 
 
 ------------------------------------------------------------------------------------------------
