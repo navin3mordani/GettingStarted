@@ -1,0 +1,62 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Checking out the current and previous version of a file helps us see what was removed 
+from the earlier file and what was added to the new file and this can help us in finding
+a bug easily as we did incase of game_old.js and game_new.js. But for this we should have 
+the previous version saved
+----------------------------------------------------------------------------------------- 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Comparing earlier verions to the current version is a good way of finding bugs. Also 
+rolling back to an earlier version can be done efficiently without keeping track of how 
+much and what all has to be deleted.
+
+-----------------------------------------------------------------------------------------
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Pros:
+When manually comitting then the chances of a version getting saved with an incomplete line 
+or word is rare.
+Also, when it comes to programming it is not just one but a bunch of lines or statements 
+that make up a logical operation or function and hence manually commiting when a logical
+operation is completely written down is a better option than automatically saving it.
+
+Cons:
+The responsibility of saving a version is on the programmer and not on the software. The 
+decision of when to commit and what useful commit message to assign with it is one that
+the programmer has to deal with.
+------------------------------------------------------------------------------------------    
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Especially for programs to implement a new logic several related files might be changed
+And hence committing these multiple files together as a bunch may be more logically useful.
+For google docs there are no manual commits and hence there is no way of these knowing what
+files are related. 
+
+--------------------------------------------------------------------------------------------
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here
+
+--------------------------------------------------------------------------------------------
+How might using version control make you more confident to make changes that
+could break something?
+
+    Using git checkout we can restore to any commit and then check if it had the bug or not. In this way
+we can exactly track down the commit that introduced the bug and since each commit has one logical change
+with change in few lines of code we can easily locate the bug.
+--------------------------------------------------------------------------------------------
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To maintain my project
+--------------------------------------------------------------------------------------------
+

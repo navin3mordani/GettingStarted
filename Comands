@@ -1,0 +1,49 @@
+Note:
+
+The git commands can be terminated using q. and not ctrl + c
+
+1. diff -u
+
+----------  finds differences amongst files in linux.
+
+
+
+2. git log
+---------- brings history of commits. printing commit id,
+time,author,and message. The latest commit is on top.
+
+3. git diff id1 id2
+------------------- gives diff between two commit ids.
+
+
+4. git clone
+--------------clones an entire repository
+
+
+5. git checkout
+--------------- is not the same as svn checkout rather git checkout is restoring your files to a previous
+commit. This is useful to find the commit exactly in which a bug was introduced. 
+
+
+6. git init
+----------- create a new git repository in your directory by making a .git folder. There are no commits yet. 
+Hence git log will give you nothing.
+
+7.git status
+-----------
+
+
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+Git Errors and Warnings Solution
+
+Should not be doing an octopus
+Octopus is a strategy Git uses to combine many different versions of code together. This message can appear if you try to use this strategy in an inappropriate situation.
+
+You are in 'detached HEAD' state
+HEAD is what Git calls the commit you are currently on. You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. Despite what it sounds like, it’s actually not a bad thing to detach the HEAD. Git just warns you so that you’ll realize you’re doing it.
+
+
+
+
+
