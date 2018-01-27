@@ -30,14 +30,31 @@ files can be committed together.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+By just adding the files that contribute to one logical change to the staging area.
+--------------------------------------------------------------------------
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+If we want to create two different versions of the same code or if we want to experiment something
+we create a branch. In this way instead of creating a copy to experiment upon ourselves. Git does
+it and maintains it for us. If we checkout a branch that wasn't made by us it is called as the remote 
+branch.
+-------------------------------------------------------------------------
 How do the diagrams help you visualize the branch structure?
 
+The diagrams help us to know how the branch structure is and what commits are common and so on.
+-------------------------------------------------------------------------
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Merging two branches will make all the changes that were made by two branches. It is shown as a detour
+in the diagram. Because the merge commit will now have two parents are commits in both branch will be
+shown when git log will be done. The order will be according to their timestamp.
+-------------------------------------------------------------------------
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Automating merging is good in some cases but when it comes to conflict resolution manual merging is the way to go
+-------------------------------------------------------------------------
 
