@@ -15,6 +15,12 @@ time,author,and message. The latest commit is on top.
 3. git diff id1 id2
 ------------------- gives diff between two commit ids.
 
+3.1. git diff
+------------- with no arguments compares the working directory and the staging area. is equivalent to 
+git diff working_directory staging_area
+
+3.2. git diff --staged
+----------------------this compares the stage_area and the most recent commit.
 
 4. git clone
 --------------clones an entire repository
@@ -30,7 +36,26 @@ commit. This is useful to find the commit exactly in which a bug was introduced.
 Hence git log will give you nothing.
 
 7.git status
------------gives status of staging area and also lists the untracked files
+-----------gives status of staging area and also lists the untracked files. Also lists files that are modified
+but not staged yet
+
+8.git branch
+------------gives names of all the branches with a star against the current branch
+
+9.git branch branch_name
+------------------------when an argument is given to git branch it creates a new branch with that name
+
+
+10. git merge merged_into_branch branch_to_merge
+------------------------be sure to checkout the branch you want to merge into. The git log then shows commits 
+from both branches ordered according to timestamp
+
+11. git show id
+------------------------shows changes made by this commit as compared to its parent.
+
+12. git branch -d branch_name 
+----------------------------- deletes a branch. The commits are there still and can be reached if pointed by another 
+branch
 
 
 ------------------------------------------------------------------------------------------------
