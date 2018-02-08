@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?\
+
+If we have more than one collabortors and we want a backup because our computer may crash.
